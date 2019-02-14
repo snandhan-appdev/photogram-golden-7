@@ -1,0 +1,9 @@
+<h1> Details </h1>
+
+<img src= "<%= @active_photo.source %> ">
+
+<p> <%=@active_photo.caption %> </p>
+<p> Created at: <%=@active_photo.created_at %> </p>
+<p> Updated at: <%=@active_photo.updated_at %> </p>
+<a href = "/photos/<%=@active_photo.id%>/edit"> Edit </a>
+<a href = "/"> Go Back </a>
